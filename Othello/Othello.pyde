@@ -3,7 +3,6 @@ from game_controller import GameController
 from computer import Computer
 from player import Player
 
-
 BACKGROUND = (0, 110, 0)
 BLACK = 0
 WHITE = 255
