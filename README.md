@@ -8,4 +8,4 @@ Download the latest version of Processing which can be found here: https://proce
 Clone the Othello folder and then click on the Othello.pyde file to start playing the game.
 
 ## Sample output
-![Image of the output](https://github.com/hoang-ph/Othello-with-Python-Processing/edit/main/OthelloOutput.PNG)
+![Image of the output](https://github.com/hoang-ph/Othello-with-Python-Processing/blob/main/OthelloOutput.PNG)
