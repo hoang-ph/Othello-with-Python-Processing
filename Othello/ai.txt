@@ -1,0 +1,12 @@
+For my computer player, I made it to prioritize picking the corner move if if is in the legal move list. If no corner move available,
+it would then prioritize picking the edge move since the edge move can only be swapped by 2 directions. If no edge move available,
+then it would pick the move that flip the most tile from the opposite color.
+
+The computer is smart but still very defeatable if I concentrate and play carefully. The computer defeated me about 70% at the time
+when I did testing runs.
+
+For improvement, I would rank each move with points and pick the move that has the most points as computer's best move. This is because
+of my current computer move algorithm prioritizing corner move then edge move and finally most flippable move. But it did not account for
+which edge move can flip the most tiles as in the method to get the edge move, it would loop through the coordinate of all the edge moves
+to see if they are in the legal-move list. Thus, it would return the last edge move coordinate in the legal-move list without choosing 
+the best edge move that can flip the most tiles.
